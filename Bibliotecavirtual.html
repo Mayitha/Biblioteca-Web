@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- INICIA ENCABEZADO DE PESTAÑA    -->
+  <meta charset="UTF-8" /> <!-- UTILIZACION DE TILDES Y Ñ   -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BIBLIOTECA VIRTUAL</title> <!-- TITULO DE LA PESTAÑA   -->
+  <style> /* Estilo general */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      padding: 20px;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Estilo de encabezado */
+    header {
+      background-color: #e600998e; /* Color verde */
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      width: 50px;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    /* Contenedor de materias */
+    .materias-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    /* Estilo de las materias */
+    .materia {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .materia h2 {
+      margin-top: 0;
+    }
+
+    .links a {
+      display: block;
+      margin: 5px 0;
+      text-decoration: none;
+      color: #141414;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Estilo del pie de página */
+    footer {
+      background-color: #cc2e979c; /* Color Rosa */
+      color: rgb(15, 15, 15);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      margin-top: auto;
+      width: 100%;
+    }
+
+    footer .social-links a {
+      margin: 0 10px;
+      color: rgb(5, 5, 5);
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    footer .social-links a:hover {
+      color: #d30b868a;
+    }
+  </style>
+</head>  <!-- FIN ENCABEZADO DE PESTAÑA    -->
+<body><!-- INICIA  CUERPO DE LA PAGINA   -->
+
+
+<header style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px;"> <!-- INICIA  ENCABEZADO VISUAL O CONTENIDO  DE PAGINA   -->
+  <img src="https://univercimas.com/wp-content/uploads/2021/04/Universidad-Nacional-de-Loja-UNL.png" alt="Logo UNL" width="200" /> 
+ <h1 id="titulo"> UNIVERSIDAD NACIONAL DE LOJA</h1> <!-- H1 TITULO PRINCIPAL   -->
+  <h2 id="carrera">Carrera Pedagogía de las Ciencias Experimentales - Informática</h2> <!-- H2 TITULO SECUNDARIO APARECE LETRAS MAS PEQUEÑAS   -->
+  <h2 id="subtitulo">BIBLIOTECA VIRTUAL</h2>  <!-- H2 TITULO TERCIARIO APARECE LETRAS MAS PEQUEÑAS   -->
+</header> <!-- FIN ENCABEZADO VISUAL O CONTENIDO DE LA PAGINA   -->
+
+  <h1>📚 Materias Sexto Ciclo Carrera Informatica </h1> <!-- inicia el contenido de toda la lista  TODAS LAS MATERIAS -->
+
+  <!-- Sección de Materias -->
+  <div class="materias-container"> 
+    <div class="materia"> <!-- inicia el contenido de LA MATERIA DE MANTENIMIENTO DE COMPUTADORAS -->
+      <h2>🛠️ Mantenimiento de Computadoras</h2> <!-- TITULO QUE APARECE DENTRO DE ESTE RECUADRO -->
+      <div class="links"> <!-- INICIA ENLACES TOTALES LOS 3 ENLACES  -->
+        <a href="https://drive.google.com/file/d/1oF70N-ZDzVc0W6IXvZpBcDCOZiTJ1LYz/view" target="_blank">📄 Sílabo</a>  <!-- ENLACE DRIVE SÍLABO -->
+        <a href="https://drive.google.com/file/d/15t7yG8Kg_2155tX01KuD3CQMn1GdSg9G/view" target="_blank">📝 Guía de Estudios</a>  <!-- ENLACE DRIVE GUIA DE ESTUDIOS -->
+        <a href="https://drive.google.com/file/d/1mC0BmJA1pWdwJPFe-svo6XYBElgbhZ2g/view" target="_blank">📘 Libro Base</a> <!-- ENLACE DRIVE LIBRO BASE -->
+      </div> <!-- FIN el contenido de LA MATERIA DE MANTENIMIENTO DE COMPUTADORAS -->
+    </div>
+
+    <div class="materia"> <!-- inicia el contenido de LA MATERIA DE EVALUACIÓN CURRICULAR -->
+      <h2>📊 Evaluación Curricular</h2> <!-- TITULO QUE APARECE DENTRO DE ESTE RECUADRO -->
+      <div class="links"> <!-- INICIA ENLACES TOTALES LOS 3 ENLACES  -->
+        <a href="https://drive.google.com/file/d/11ajN1c_Q9504y8mFQ0nrqaJcCdq0QM3k/view" target="_blank">📄 Sílabo</a> <!-- ENLACE DRIVE SÍLABO -->
+        <a href="https://drive.google.com/file/d/1JM_Eo1JEmLbgBN2tJCeRh9uVcilMiaml/view" target="_blank">📝 Guía de Estudios</a> <!-- ENLACE DRIVE GUIA DE ESTUDIOS -->
+        <a href="https://drive.google.com/file/d/1nXtsAkH0U_jqn1rInW_7fy2edFF-pHgY/view " target="_blank">📘 Libro Base</a> <!-- ENLACE DRIVE TEXTO BASE -->
+      </div> <!-- FIN el contenido de LA MATERIA DE EVALUACIÓN CURRICULAR -->
+    </div>
+
+    <div class="materia"> <!-- inicia el contenido de LA MATERIA GESTIÓN DE TECNOLOGÍA EDUCATIVA -->
+      <h2>💻 Gestión de Tecnología Educativa</h2> <!-- TITULO QUE APARECE DENTRO DE ESTE RECUADRO -->
+      <div class="links"> <!-- INICIA ENLACES TOTALES LOS 3 ENLACES  -->
+        <a href="https://drive.google.com/file/d/1tbUTTw3wt44x_uvd74HiepzbzRSi0ZmO/view?usp=sharing" target="_blank">📄 Sílabo</a> <!-- ENLACE DRIVE SÍLABO -->
+        <a href="https://drive.google.com/file/d/1nUuWa9-ueojNCmCNle7ws9F_hLzftzGo/view?usp=sharing" target="_blank">📝 Guía de Estudios</a> <!-- ENLACE DRIVE GUIA DE ESTUDIOS -->
+        <a href="https://drive.google.com/file/d/1ekKt422QBbgX72P46PwQ-z_t86zzVkZJ/view?usp=sharing" target="_blank">📘 Libro Base</a> <!-- ENLACE DRIVE TEXTO BASE -->
+      </div> <!-- FIN el contenido de LA MATERIA DE GESTIÓN DE TECNOLOGÍA EDUCATIVA-->
+    </div>
+
+    <div class="materia"> <!-- inicia el contenido de LA MATERIA INCLUSION EDUCATIVA -->
+      <h2>📖 Inclusion educativa</h2> <!-- TITULO QUE APARECE DENTRO DE ESTE RECUADRO -->
+      <div class="links"> <!-- INICIA ENLACES TOTALES LOS 3 ENLACES  -->
+        <a href="https://drive.google.com/file/d/1O3JYvtT4wSCvmN4ZRT7MlrHZ1MhsCEo8/view?usp=sharing" target="_blank">📄 Sílabo</a> <!-- ENLACE DRIVE SÍLABO -->
+        <a href="https://drive.google.com/file/d/1KMQXHKP_xPKoi-GOJ2eD5gm2e4vWZGW2/view?usp=sharing" target="_blank">📝 Guía de Estudios</a> <!-- ENLACE DRIVE GUIA DE ESTUDIOS -->
+        <a href="https://drive.google.com/file/d/17GvbDUn_EfTy9S1gJDF5wR2Ph8nwTbNZ/view?usp=sharing" target="_blank">📘 Libro Base</a> <!-- ENLACE DRIVE TEXTO BASE -->
+      </div> <!-- FIN el contenido de LA MATERIA DE INCLUSION EDUCATIVA-->
+    </div>
+
+    <div class="materia"> <!-- inicia el contenido de LA MATERIA REDES INFORMATICAS -->
+      <h2>📘 Redes Informaticas</h2> <!-- TITULO QUE APARECE DENTRO DE ESTE RECUADRO -->
+      <div class="links"> <!-- INICIA ENLACES TOTALES LOS 3 ENLACES  -->
+        <a href="https://drive.google.com/file/d/1vGQIpQ4u41cfwTcH01xicNaJdnmhr1XM/view" target="_blank">📄 Sílabo</a> <!-- ENLACE DRIVE SÍLABO -->
+        <a href="https://drive.google.com/file/d/1z0L95PX3VFFILh_6m-GsIGqWrqf6aDo6/view" target="_blank">📝 Guía de Estudios</a> <!-- ENLACE DRIVE GUIA DE ESTUDIOS -->
+        <a href="https://drive.google.com/file/d/1ZXqPSB8glQECeS1KWNzMdjx1UZck2FH-/view" target="_blank">📘 Libro Base</a> <!-- ENLACE DRIVE TEXTO BASE -->
+      </div> <!-- FIN el contenido de la materia de  REDES INFORMATICAS -->
+    </div>
+    
+    <div class="materia"> <!-- inicia el contenido de LA MATERIA PROGRAMACIÓN WEB -->
+      <h2>🌐 Programación Web</h2> <!-- TITULO QUE APARECE DENTRO DE ESTE RECUADRO -->
+      <div class="links"> <!-- INICIA ENLACES TOTALES LOS 3 ENLACES  -->
+        <a href="https://drive.google.com/file/d/1lOZY2RM3sexn2IckW8MZm7xDj0eCqmKN/view" target="_blank">📄 Sílabo</a> <!-- ENLACE DRIVE SÍLABO -->
+        <a href="https://drive.google.com/file/d/1QcN106PUvuqj_yMkZMMqa9s7_MymuCpo/view " target="_blank">📝 Guía de Estudios</a> <!-- ENLACE DRIVE GUIA DE ESTUDIOS -->
+        <a href="https://drive.google.com/file/d/1zxJiCIYhCg-gOF6S-S-Pepz8Y3u8Rw5U/view " target="_blank">📘 Libro Base</a> <!-- ENLACE DRIVE TEXTO BASE  -->
+      </div> <!-- FIN el contenido de la materia PROGRAMACIÓN WEB -->
+    </div>
+      
+<!-- INICIO PIE DE PÁGINA -->
+<footer style="background-color: #f50ee29a; color: rgb(10, 10, 10); padding: 30px 20px 20px 20px; margin-top: 40px; text-align: center;"> <!-- INICIO PIE DE PAGINA   -->
+
+
+  <div>  <!-- Parte superior centrada -->
+    <p><strong>PERIODO ACADÉMICO MARZO - AGOSTO 2025</strong></p> <!-- PARRAFO   -->
+    <p><strong>AUTOR: MAYURI DÍAZ</strong></p> <!-- PARRAFO   -->
+    <p><strong>VERSIÓN 1.0</strong></p> <!-- PARRAFO   -->
+  </div>
+
+
+  <div style="display: flex; justify-content: center; gap: 100px; flex-wrap: wrap; margin-top: 20px; text-align: left;"> <!-- Parte inferior en 2 columnas -->
+    
+    <div> <!-- Columna 1: Contacto -->
+      <p><strong>Contacto:</strong></p> <!-- PARRAFO   -->
+      <p>Dirección: Calle Universitaria y Bolívar, Loja - Ecuador</p> <!-- PARRAFO   -->
+      <p>Teléfono: 0998568771</p> <!-- PARRAFO   -->
+      <p><a href="gmail.com" style="color: rgb(12, 12, 12); text-decoration: underline;">adelediaz81@gmail.com</a></p> <!-- PARRAFO   -->
+    </div>
+
+
+    <div> <!-- Columna 2: Redes Sociales -->
+      <p><strong>Redes Sociales:</strong></p> <!-- PARRAFO   -->
+      <div class="social-links" style="display: flex; flex-direction: column; gap: 8px;"> <!-- PARRAFO   -->
+        <a href="https://www.facebook.com/unl" target="_blank" style="color: rgb(10, 10, 10); text-decoration: underline;">Facebook</a> <!-- PARRAFO   -->
+        <a href="https://twitter.com/unl" target="_blank" style="color: rgb(19, 19, 19); text-decoration: underline;">Twitter</a> <!-- PARRAFO   -->
+        <a href="https://www.instagram.com/unl" target="_blank" style="color: rgb(8, 8, 8); text-decoration: underline;">Instagram</a> <!-- PARRAFO   -->
+        <a href="https://youtu.be/xDxf4CK5mdc" target="_blank" style="color: rgb(8, 8, 8); text-decoration: underline;">YouTube</a> <!-- PARRAFO   -->
+      </div>
+    </div> <!-- Fin de las 2 columnas -->
+
+</footer> <!-- FIN PIE DE PÁGINA -->
+</html> <!-- FIN  PAGINA HTML   --> 
